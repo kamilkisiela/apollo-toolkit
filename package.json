@@ -1,0 +1,35 @@
+{
+  "name": "apollo-toolkit",
+  "version": "2.0.2",
+  "description": "Set of utils for Apollo Client",
+  "sideEffects": false,
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  },
+  "repository": "https://github.com/kamilkisiela/apollo-toolkit",
+  "author": {
+    "email": "kamil.kisiela@gmail.com",
+    "name": "Kamil Kisiela",
+    "url": "https://github.com/kamilkisiela"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "bob build --single"
+  },
+  "peerDependencies": {
+    "apollo-client": "^2.1.0"
+  },
+  "dependencies": {
+    "immer": "6.0.5"
+  },
+  "devDependencies": {
+    "apollo-client": "2.6.10",
+    "bob-the-bundler": "1.0.2",
+    "graphql": "15.3.0",
+    "typescript": "3.9.6"
+  }
+}
